@@ -1,7 +1,7 @@
 name: Execute on everything
 on:
   pull_request:
-    types: [opened, closed, reopened]
+    types: [opened, updated, closed, reopened]
 
 jobs:
   say-hi:
